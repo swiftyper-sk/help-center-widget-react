@@ -17,10 +17,8 @@ export const HelpCenterWidget: React.FC<HelpCenterWidgetProps> = (props) => {
         window.helpCenterWidgetSDK.run(props);
       };
       document.head.appendChild(script);
-    } else {
-      window.helpCenterWidgetSDK.run(props);
     }
   }, [props]);
 
   return null;
-}; 
+};

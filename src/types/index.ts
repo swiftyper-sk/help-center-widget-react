@@ -23,11 +23,11 @@ declare global {
       run: (config: HelpCenterWidgetConfig) => void
       toggle: (state?: boolean) => void
       navigate: (
-          route: 'search' | 'category' | 'article',
-          idOrQuery: string
+          route: 'search' | 'category' | 'article' | 'contact',
+          idOrQuery?: string
       ) => void
       hasLoaded: boolean
       isReady: boolean
     }
   }
-} 
+}
